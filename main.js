@@ -143,6 +143,7 @@ function getIdleTime(startTime, endTime) {
 // idleTime: (typeof string) formatted as h:mm:ss
 // Returns: string formatted as h:mm:ss
 // ============================================================
+//added getIdleTime and getActiveTime logic
 function getActiveTime(shiftDuration, idleTime) {
     let shift = shiftDuration.split(":");
     let idle = idleTime.split(":");

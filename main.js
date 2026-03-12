@@ -325,6 +325,7 @@ function countBonusPerMonth(textFile, driverID, month) {
 // driverID: (typeof string)
 // month: (typeof number)
 // Returns: string formatted as hhh:mm:ss
+//completed monthly hours and pay calculation functions
 // ============================================================
 function getTotalActiveHoursPerMonth(textFile, driverID, month) {
     let fs = require("fs");
